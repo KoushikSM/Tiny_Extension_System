@@ -1,5 +1,6 @@
 # Tiny-Extension-Analysis
 A browser extension security analysis lab that performs static analysis + dynamic (runtime) analysis on Chrome extensions, with automated execution and log collection.
+
 ## Prerequisites
 
 Make sure the following are installed:
@@ -9,7 +10,8 @@ Make sure the following are installed:
 - Google Chrome
 - `pip` and `npm` available in PATH
 
-Verify installations:
+### Verify installations
+
 ```bash
 python --version
 node --version
@@ -36,4 +38,4 @@ python static_analysis/static_scanner.py extensions/tiny-extension
 Batch scan all extensions
 python static_analysis/batch_scan.py extensions/
 
- 
+
