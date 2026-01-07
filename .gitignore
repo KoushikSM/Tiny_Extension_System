@@ -1,1 +1,13 @@
+# Node
+node_modules/
+
+# Python
+venv/
+__pycache__/
+
+# Generated results
+results/
+network_logs/
+*.log
+*.xlsx
 
